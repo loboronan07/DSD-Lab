@@ -1,0 +1,85 @@
+$date
+	Tue Sep 20 11:00:05 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module exercise1_tb $end
+$var wire 1 ! f $end
+$var reg 2 " S [1:0] $end
+$var reg 4 # W [0:3] $end
+$scope module test $end
+$var wire 2 $ S [1:0] $end
+$var wire 4 % W [0:3] $end
+$var wire 1 ! f $end
+$var wire 2 & X [0:1] $end
+$scope module m1 $end
+$var wire 1 ' S $end
+$var wire 2 ( W [0:1] $end
+$var reg 1 ) f $end
+$upscope $end
+$scope module m2 $end
+$var wire 1 * S $end
+$var wire 2 + W [0:1] $end
+$var reg 1 , f $end
+$upscope $end
+$scope module m3 $end
+$var wire 1 - S $end
+$var wire 2 . W [0:1] $end
+$var reg 1 ! f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 .
+0-
+0,
+b1 +
+0*
+0)
+b1 (
+0'
+b0 &
+b101 %
+b0 $
+b101 #
+b0 "
+0!
+$end
+#10
+1!
+1)
+b11 &
+b11 .
+1,
+1'
+1*
+b1 "
+b1 $
+#20
+0!
+0)
+b0 &
+b0 .
+0,
+0'
+0*
+1-
+b10 "
+b10 $
+#30
+1!
+1)
+b11 &
+b11 .
+1,
+1'
+1*
+b11 "
+b11 $
+#40
