@@ -1,3 +1,8 @@
+/* Lab Exercise 1
+	Simplify the following functions using K-map and implement the circuit using logic gates.
+		a) f(A,B,C,D) = ∑m (2,3,4,5,6,7,10,11,12,15)
+*/
+
 `timescale 1ns/1ns
 `include "exercise1a.v"
 

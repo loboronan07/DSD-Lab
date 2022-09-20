@@ -1,3 +1,9 @@
+/* Lab Exercise 2 3
+	Application of Boolean Algebra
+		3. Simulate f (x1, x2, x3) =∏M (0, 1, 5, 7) using
+			i)NOR gates only	ii) NAND gates only
+*/
+
 `timescale 1ns/1ns
 `include "exercise2_3.v"
 

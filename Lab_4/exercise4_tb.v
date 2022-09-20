@@ -1,3 +1,8 @@
+/* Lab Exercise 4
+	Minimize the following expressions using K-map and simulate using NOR gates only.
+		f(A, B, C, D) = ∑m(1,3,5,7,9) + D(6,12,13)
+*/
+
 `timescale 1ns/1ns
 `include "exercise4.v"
 

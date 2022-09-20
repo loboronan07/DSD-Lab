@@ -1,3 +1,8 @@
+/* Lab Exercise 2 2
+	Application of Boolean Algebra
+		2. Simulate F(x,y,z) = ∑m(2,3,4,6,7) using
+			i)NOR gates only	ii) NAND gates only
+*/
 `timescale 1ns/1ns
 `include "exercise2_2.v"
 

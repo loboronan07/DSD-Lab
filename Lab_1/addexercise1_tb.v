@@ -1,3 +1,9 @@
+/* Additional Exercise 1
+	Write Verilog code to describe the following functions
+		f1 = ac’+ bc + b’c’
+		f2 = (a + b’ + c)(a + b + c’)(a’ + b + c’)
+*/
+
 `timescale 1ns/1ns
 `include "addexercise1.v"
 

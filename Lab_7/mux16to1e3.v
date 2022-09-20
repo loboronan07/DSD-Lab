@@ -1,4 +1,4 @@
-module mux16to1c(W, S, f);
+module mux16to1e3(W, S, f);
 input [0:15]W;
 input [3:0]S;
 output f;

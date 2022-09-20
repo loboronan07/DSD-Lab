@@ -1,3 +1,8 @@
+/* Lab Exercise 3
+	Simulate a circuit that has four inputs, x1, x2, x3, and x4, which produces an output value of 1
+	whenever three or more of the input variables have the value 1; otherwise, the output has to be 0.
+*/
+
 `timescale 1ns/1ns
 `include "exercise3.v"
 

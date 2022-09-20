@@ -1,3 +1,9 @@
+/* Lab Exercise 2 i
+	Write the Verilog code to implement the circuit in the following figure.
+		Figure in Manual
+	i)Using gate-level primitives
+*/
+
 `timescale 1ns/1ns
 `include "exercise2i.v"
 

@@ -1,3 +1,9 @@
+/* Lab Exercise 2 1
+	Application of Boolean Algebra
+		1. Given the logical expression Y= (A+BC)(B+CA). Convert it to SOP and simulate using only
+			i)AND and OR gates.	ii) NAND gates
+*/
+
 `timescale 1ns/1ns
 `include "exercise2_1.v"
 

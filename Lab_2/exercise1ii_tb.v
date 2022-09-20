@@ -1,3 +1,10 @@
+/* Lab Exercise 1 ii
+	Verification of Boolean Algebra
+		Prove the following
+			X (Y + Z) = XY + XZ;
+		(if both LHS and RHS contain expressions write Verilog code for both sides and show that LHS=RHS)
+*/
+
 `timescale 1ns/1ns
 `include "exercise1ii.v"
 

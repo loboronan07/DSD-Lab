@@ -1,3 +1,8 @@
+/* Lab Exercise 1
+	Minimize the following expression using K-map and simulate using only NAND gates.
+		f(A, B, C, D)= πM(2,6,8,9,10,11,14)
+*/
+
 `timescale 1ns/1ns
 `include "exercise1.v"
 

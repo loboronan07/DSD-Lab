@@ -1,3 +1,10 @@
+/* Lab Exercise 1 ii
+	Write the Verilog code to implement the circuit in the following figure.
+		Figure in Manual
+	ii)Using continuous assignment statements.
+
+*/
+
 `timescale 1ns/1ns
 `include "exercise1ii.v"
 

@@ -1,4 +1,4 @@
-module mux16to1(W, S, f);
+module mux16to1e2(W, S, f);
 input [0:15]W;
 input [3:0]S;
 output f;
@@ -19,7 +19,7 @@ output f;
 reg f;
 
 always@(W or S)
-        f = S[1] ? (S[0] ? W[1] : W[0]) : (S[0] ? W[3] : W[2]);
+        f = S[1] ? (S[0] ? W[3] : W[2]) : (S[0] ? W[1] : W[0]);
         
 endmodule
 
