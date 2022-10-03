@@ -19,7 +19,7 @@ initial begin
         
         // Check for position
         W = 4'b1000; S = 2'b00; #10; // Only the 0th bit is high
-        W = 4'b1110; S = 2'b10; #11; // Only the 3rd bit is low
+        W = 4'b1110; S = 2'b11; #10; // Only the 3rd bit is low
         
         // Check for alternate values
         W = 4'b0101; S = 2'b01; #10;
