@@ -1,3 +1,8 @@
+/* Lab Exercise 1b
+	Implement the following functions using the specified multiplexers and write the Verilog code for
+the same.
+		b. G(a,b,c,d) = Σm(0,2,3,5,7) using 4 to 1 multiplexer.
+*/
 `timescale 1ns/1ns
 `include "exercise1b.v"
 

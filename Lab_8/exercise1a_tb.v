@@ -1,3 +1,9 @@
+/* Lab Exercise 1a
+	Implement the following functions using the specified multiplexers and write the Verilog code for
+the same.
+		a. F(a,b,c,d) = a’b + ac’ + abd’ + bc’d using 8 to 1 multiplexer.
+*/
+
 `timescale 1ns/1ns
 `include "exercise1a.v"
 

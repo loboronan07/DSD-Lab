@@ -1,3 +1,9 @@
+/* Lab Exercise 2b
+	Implement a 3 input majority function using the given multiplexers and write the Verilog code for
+the same.
+		b. Only 2 to 1 multiplexer.
+*/
+
 `timescale 1ns/1ns
 `include "exercise2b.v"
 

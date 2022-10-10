@@ -1,3 +1,7 @@
+/* Additional Exercise 2
+	Design and simulate a full adder using 2 to 1 multiplexers and other necessary gates.
+*/
+
 `timescale 1ns/1ns
 `include "fulladder.v"
 
