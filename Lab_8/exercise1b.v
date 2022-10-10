@@ -17,6 +17,6 @@ output f;
 reg f;
 
 always@(W or S)
-        f = S[1] ? (S[0] ? W[3] : W[2]) : (S[0] ? W[1] : W[0]);
+        f = W[S];
         
 endmodule
