@@ -1,3 +1,8 @@
+/* Lab Exercise 2
+	Write behavioral Verilog code to implement the following and simulate
+		Four-bit adder/subtractor using a four-bit adder.
+*/
+
 `timescale 1ns/1ns
 `include "addsub4b.v"
 
