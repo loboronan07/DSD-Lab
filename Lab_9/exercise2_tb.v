@@ -13,10 +13,10 @@ initial begin
         $dumpfile("exercise2.vcd");
         $dumpvars(0, exercise2_tb);
         
-        A = 4'b1001; B = 4'b0101; s = 1'b0; #10;
-        A = 4'b1001; B = 4'b0101; s = 1'b1; #10;
-        A = 4'b0101; B = 4'b1001; s = 1'b0; #10;
-        A = 4'b0101; B = 4'b1001; s = 1'b1; #10;
+        A = 4'b1011; B = 4'b0100; s = 1'b0; #10;
+        A = 4'b1011; B = 4'b0100; s = 1'b1; #10;
+        A = 4'b0100; B = 4'b1011; s = 1'b0; #10;
+        A = 4'b0100; B = 4'b1011; s = 1'b1; #10;
         
         $display("Test Complete");
 end
