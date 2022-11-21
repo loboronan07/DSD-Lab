@@ -11,9 +11,9 @@ reg [3:0]A;
 reg [3:0]B;
 reg s;
 wire [3:0]S;
-wire neg;
+wire Cout;
 
-addsub4b test(A, B, s, S, neg);
+addsub4b test(A, B, s, S, Cout);
 initial begin
         $dumpfile("exercise2.vcd");
         $dumpvars(0, exercise2_tb);
