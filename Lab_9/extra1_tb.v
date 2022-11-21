@@ -18,16 +18,10 @@ initial begin
         $dumpfile("extra1.vcd");
         $dumpvars(0, extra1_tb);
         
-        Cin = 0;
-        for(integer i=0; i<10; i=i+1)
-	begin
-		A = i;
-		for(integer j=0; j<10; j=j+1)
-		begin
-			B = j;
-			#10;
-		end
-	end
+        Cin = 0; A = 4'b1011; B = 4'b0100; #10;
+        Cin = 1; A = 4'b1011; B = 4'b0100; #10;
+        Cin = 0; A = 4'b0101; B = 4'b1000; #10;
+        Cin = 0; A = 4'b1011; B = 4'b1101; #10;
         
         $display("Test Complete");
 end
