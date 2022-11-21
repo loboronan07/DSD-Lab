@@ -2,6 +2,8 @@
 	Design and write Verilog code for a 2 digit BCD adder.
 */
 
+// bcdadder2b.v is not yet implemented
+
 `timescale 1ns/1ns
 `include "bcdadder2b.v"
 
